@@ -1,0 +1,34 @@
+body {
+    text-align: center;
+    background-image: url("./astrounout.jpg");
+    padding-top: 40px;
+}
+
+.head h1{
+    color: red;
+    align-items: center;
+}
+
+
+
+#board {
+    /* background-color: green; */
+    background-image: url("./coba.jpg");
+    
+}
+
+#updateScore{
+    color: red;
+}
+
+#highScorePopup {
+            display: none;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            border: 2px solid #000;
+            border-radius: 5px;
+        }
